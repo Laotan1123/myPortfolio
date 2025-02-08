@@ -140,7 +140,7 @@ const Contact = () => {
               <i className="fab fa-github text-2xl"></i>
             </a>
             <a 
-              href="www.linkedin.com/in/david-ibitayo-20129b327" 
+              href="https://www.linkedin.com/in/david-ibitayo-20129b327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:text-[#915EFF] transition-colors duration-300"
