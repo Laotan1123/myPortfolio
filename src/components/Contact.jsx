@@ -129,6 +129,41 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="flex flex-row gap-8 mt-8 items-center justify-center">
+            <a 
+              href="https://github.com/Laotan1123" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300"
+            >
+              <i className="fab fa-github text-2xl"></i>
+            </a>
+            <a 
+              href="www.linkedin.com/in/david-ibitayo-20129b327" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300"
+            >
+              <i className="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a 
+              href="https://wa.me/+2349086307462" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300"
+            >
+              <i className="fab fa-whatsapp text-2xl"></i>
+            </a>
+            <a 
+              href="https://www.instagram.com/laotan1123/?hl=en" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300"
+            >
+              <i className="fab fa-instagram text-2xl"></i>
+            </a>
+          </div>
         </form>
       </motion.div>
 
